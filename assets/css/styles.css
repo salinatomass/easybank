@@ -75,3 +75,40 @@ ul {
   color: var(--gray-color);
   text-decoration: none;
 }
+
+/* Footer */
+.footer{
+  height: 126px;
+  width: 100%;
+  background: var(--primary-color);
+}
+
+.footer_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  padding-top: 30px;
+}
+
+.footer_logo{
+  display: block;
+  height: 100px;
+}
+
+.nav_footer_container{
+  padding: 0;
+  margin: 0px;
+  align-items: center;
+  justify-content: space-between;
+  display: flexbox;
+  position: fixed;
+}
+
+.nav_footer_container ul{
+  padding-top: 13px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
