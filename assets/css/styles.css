@@ -1,13 +1,15 @@
+/* _____Globals */
+
 :root {
-  /* _____Font */
+  /* Font */
   --font: 'Public Sans', sans-serif;
 
-  /* _____Primary Colors */
+  /* Primary Colors */
   --primary-color: hsl(233, 26%, 24%);
   --lime-color: hsl(136, 65%, 51%);
   --cyan-color: hsl(192, 70%, 51%);
 
-  /* _____Neutral Colors */
+  /* Neutral Colors */
   --white-color: hsl(0, 0%, 100%);
   --light-gray-color: hsl(0, 0%, 98%);
   --grayish-white-color: hsl(220, 16%, 96%);
@@ -24,4 +26,28 @@ body {
   font-family: var(--font);
   font-size: 18px;
   color: var(--gray-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* _____Header */
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__link {
+  color: var(--gray-color);
+  text-decoration: none;
 }
