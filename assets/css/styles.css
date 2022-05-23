@@ -106,9 +106,26 @@ ul {
 }
 
 .nav_footer_container ul{
-  padding-top: 13px;
+  padding-top: 5px;
   position: absolute;
   display: flex;
   align-items: center;
   gap: 10px;
 }
+
+.nav_footer_text_container{
+  height: 100px;
+}
+
+.nav_footer_text_container ul{
+  color: var(--grayish-white-color);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 120px
+}
+
+.text_group1{
+  gap: 40px;
+}
+
