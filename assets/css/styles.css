@@ -75,3 +75,54 @@ ul {
   color: var(--gray-color);
   text-decoration: none;
 }
+
+/* _____Footer */
+.footer {
+  width: 100%;
+  background: var(--primary-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__main{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.footer__social {
+  padding-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__nav{
+  width: 45%;
+}
+
+.footer__nav ul{
+  display: flex;
+  gap: 50px;
+}
+
+.footer__nav ul div{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer__nav a{
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.footer__nav a:hover{
+  color: var(--lime-color);
+}
