@@ -78,53 +78,57 @@ ul {
 
 /* _____Footer */
 .footer {
-  height: 126px;
   width: 100%;
   background: var(--primary-color);
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.footer_container {
+.footer__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-right: 30px;
 }
 
-.footer_logo {
+.footer__main{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+/* .footer__logo {
   display: block;
   height: 100px;
-}
+} */
 
-.nav_footer_container {
-  padding: 0;
-  margin: 0px;
-  align-items: center;
-  justify-content: space-between;
-  display: flexbox;
-  position: fixed;
-}
-
-.nav_footer_container ul {
+.footer__social {
   padding-top: 5px;
-  position: absolute;
   display: flex;
   align-items: center;
   gap: 10px;
 }
 
-.nav_footer_text_container {
-  height: 100px;
+.footer__nav{
+  width: 45%;
 }
 
-.nav_footer_text_container ul {
-  color: var(--grayish-white-color);
-  font-size: 15px;
+.footer__nav ul{
   display: flex;
-  align-items: center;
-  gap: 120px;
+  /* border: 1px solid red; */
+  gap: 50px;
 }
 
-.text_group1 {
-  gap: 40px;
+.footer__nav ul div{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.footer__nav a{
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.footer__nav a:hover{
+  color: var(--lime-color);
 }
