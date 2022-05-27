@@ -59,8 +59,8 @@ ul {
 
 /* _____Header */
 .header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .header__container {
   display: flex;
@@ -75,6 +75,7 @@ ul {
 .header__link {
   color: var(--gray-color);
   text-decoration: none;
+  font-size: 16px;
 }
 
 /* _____Hero */
