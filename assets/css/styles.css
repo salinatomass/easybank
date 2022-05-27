@@ -58,8 +58,8 @@ ul {
 
 /* _____Header */
 .header {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .header__container {
   display: flex;
@@ -74,6 +74,7 @@ ul {
 .header__link {
   color: var(--gray-color);
   text-decoration: none;
+  font-size: 16px;
 }
 
 /* _____Footer */
@@ -90,7 +91,7 @@ ul {
   justify-content: space-between;
 }
 
-.footer__main{
+.footer__main {
   display: flex;
   flex-direction: column;
   gap: 45px;
@@ -103,26 +104,26 @@ ul {
   gap: 10px;
 }
 
-.footer__nav{
+.footer__nav {
   width: 45%;
 }
 
-.footer__nav ul{
+.footer__nav ul {
   display: flex;
   gap: 50px;
 }
 
-.footer__nav ul div{
+.footer__nav ul div {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
 
-.footer__nav a{
+.footer__nav a {
   color: var(--white-color);
   text-decoration: none;
 }
 
-.footer__nav a:hover{
+.footer__nav a:hover {
   color: var(--lime-color);
 }
